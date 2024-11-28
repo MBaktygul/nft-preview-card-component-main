@@ -1,0 +1,42 @@
+// base
+body {
+  font-family: $font-stack;
+  background-color: $main-bg;
+  font-size: $font-size-base;
+  color: $soft-blue;
+  height: 100vh;
+}
+
+section {
+  background-color: $card-bg;
+  padding: 24px;
+  width: 320px;
+  max-width: 350px;
+  border-radius: $border-radius;
+}
+
+h3 {
+  &:hover {
+    cursor: pointer;
+    color: $cyan;
+  }
+}
+
+a {
+  color: $white;
+  
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    color: $cyan;
+  }
+}
+
+hr {
+  margin: 0;              
+  padding: 0;            
+  border: none;           
+  height: 1px;            
+  background-color: $line;
+}

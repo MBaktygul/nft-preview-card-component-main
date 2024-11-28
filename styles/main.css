@@ -1,0 +1,260 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  height: 100%;
+  line-height: var(--spacing-l);
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a {
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100vh;
+  display: block;
+  width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+/* Font face */
+@font-face {
+  font-family: "Outfit";
+  src: url("../font/Outfit-Light.ttf") format("truetype");
+  src: url("../font/Outfit-Light.woff") format("woff");
+  src: url("../font/Outfit-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../font/Outfit-Regular.ttf") format("truetype");
+  src: url("../font/Outfit-Regular.woff") format("woff");
+  src: url("../font/Outfit-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../font/Outfit-SemiBold.ttf") format("truetype");
+  src: url("../font/Outfit-SemiBold.woff") format("woff");
+  src: url("../font/Outfit-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  height: 100vh;
+}
+
+section {
+  background-color: hsl(216, 50%, 16%);
+  padding: 24px;
+  width: 320px;
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+h3:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+}
+a:visited {
+  color: hsl(0, 0%, 100%);
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+  top: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.flex-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 14px;
+}
+
+.highlight {
+  color: hsl(0, 0%, 100%);
+}
+.highlight:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+}
+
+.img__wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+  backface-visibility: hidden;
+}
+
+.img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.img-overlay:hover {
+  opacity: 1;
+  background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+  width: 35px;
+  height: 35px;
+}
+
+.section__text {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.section-item {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.text-xs {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.value {
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+}/*# sourceMappingURL=main.css.map */

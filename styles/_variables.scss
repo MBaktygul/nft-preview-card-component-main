@@ -1,0 +1,31 @@
+// fonts
+$font-stack: 'Outfit', sans-serif ;
+
+// font-sizes
+$font-size-base: 18px;
+$font-size-small: 16px;
+
+//font-weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+
+// colors
+// primary
+$soft-blue:hsl(215, 51%, 70%);
+$cyan:hsl(178, 100%, 50%);
+
+// secondary
+$main-bg: hsl(217, 54%, 11%);
+$card-bg: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+// hsla
+$cyan-alpha: hsla(178, 100%, 50%, 0.5);
+
+// breakpoints
+$breakpoint-desktop: 768px;
+
+// border-radius
+$border-radius: 10px;
