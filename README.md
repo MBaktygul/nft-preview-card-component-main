@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
   - Solution URL: [HTML](https://github.com/MBaktygul/nft-preview-card-component-main/blob/main/index.html), [CSS](https://github.com/MBaktygul/nft-preview-card-component-main/tree/main/styles)
-- Live Site URL: [NFT card component](mbaktygul.github.io/nft-preview-card-component-main/)
+- Live Site URL: [NFT card component](https://mbaktygul.github.io/nft-preview-card-component-main/)
 
 ## My process
 
