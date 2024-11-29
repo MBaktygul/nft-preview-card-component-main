@@ -15,7 +15,10 @@ section {
   border-radius: $border-radius;
 }
 
-h3 {
+h2 {
+  font-size: $font-size-large;
+  color: $white;
+  
   &:hover {
     cursor: pointer;
     color: $cyan;
