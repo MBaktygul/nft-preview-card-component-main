@@ -43,6 +43,16 @@
   height: 35px;
 }
 
+.section__header {
+  font-size: $font-size-large;
+  color: $white;
+  cursor: pointer;
+  
+  &:hover {
+    color: $cyan;
+  }
+}
+
 .section__text {
   color: $soft-blue;
   font-weight: $font-weight-light;

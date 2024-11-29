@@ -15,16 +15,6 @@ section {
   border-radius: $border-radius;
 }
 
-h2 {
-  font-size: $font-size-large;
-  color: $white;
-  
-  &:hover {
-    cursor: pointer;
-    color: $cyan;
-  }
-}
-
 a {
   color: $white;
   
