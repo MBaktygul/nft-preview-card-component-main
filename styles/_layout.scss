@@ -1,80 +1,79 @@
 .attribution {
-  font-size: 16px;
-  text-align: center;
-  position: fixed;
-  bottom: 10px;
+	font-size: 16px;
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
 }
 
-.img__wrapper {
-  position: relative;
-  overflow: hidden; 
-  border-radius: $border-radius;
-
+.image__wrapper {
+	position: relative;
+	overflow: hidden;
+	border-radius: $border-radius;
 }
 
-.img {
-  display: block;
-  width: 100%;
-  height: auto;
-  backface-visibility: hidden;
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+	backface-visibility: hidden;
 }
 
-.img-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0; 
-  transition: 0.3s ease; 
+.image-overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.3s ease;
 
-  &:hover {
-    opacity: 1;
-    background-color: $cyan-alpha;
-  }
+	&:hover {
+		opacity: 1;
+		background-color: $cyan-alpha;
+	}
 }
 
 .avatar {
-  border-radius: 50%;
-  border: 1px solid $white ;
-  width: 35px;
-  height: 35px;
+	border-radius: 50%;
+	border: 1px solid $white;
+	width: 35px;
+	height: 35px;
 }
 
 .section__header {
-  font-size: $font-size-large;
-  color: $white;
-  cursor: pointer;
-  
-  &:hover {
-    color: $cyan;
-  }
+	font-size: $font-size-large;
+	color: $white;
+	cursor: pointer;
+
+	&:hover {
+		color: $cyan;
+	}
 }
 
 .section__text {
-  color: $soft-blue;
-  font-weight: $font-weight-light;
+	color: $soft-blue;
+	font-weight: $font-weight-light;
 }
 
 .section-item {
-  display: inline-flex;
-  gap: 8px;
+	display: inline-flex;
+	gap: 8px;
 }
 
 .text-xs {
-  font-size: $font-size-small;
+	font-size: $font-size-small;
 }
 
 .bold {
-  font-weight: $font-weight-semibold;
+	font-weight: $font-weight-semibold;
 }
 
 .value {
-  color: $cyan;
+	color: $cyan;
 }
 
 .time {
-  color: $soft-blue;
+	color: $soft-blue;
 }

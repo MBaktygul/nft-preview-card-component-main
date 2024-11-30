@@ -120,11 +120,6 @@ section {
   border-radius: 10px;
 }
 
-h3:hover {
-  cursor: pointer;
-  color: hsl(178, 100%, 50%);
-}
-
 a {
   color: hsl(0, 0%, 100%);
 }
@@ -197,20 +192,20 @@ hr {
   bottom: 10px;
 }
 
-.img__wrapper {
+.image__wrapper {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.img {
+.image {
   display: block;
   width: 100%;
   height: auto;
   backface-visibility: hidden;
 }
 
-.img-overlay {
+.image-overlay {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,7 +216,7 @@ hr {
   opacity: 0;
   transition: 0.3s ease;
 }
-.img-overlay:hover {
+.image-overlay:hover {
   opacity: 1;
   background-color: hsla(178, 100%, 50%, 0.5);
 }
@@ -231,6 +226,15 @@ hr {
   border: 1px solid hsl(0, 0%, 100%);
   width: 35px;
   height: 35px;
+}
+
+.section__header {
+  font-size: 24px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.section__header:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .section__text {
